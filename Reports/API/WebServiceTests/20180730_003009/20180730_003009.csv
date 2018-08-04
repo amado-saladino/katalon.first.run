@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebServiceTests,,,2018-07-30 00:30:16,2018-07-30 00:30:24,7.982s,PASSED
+,,,,,,
+Test Cases/WebserviceTest/GET/VerifyNameById,,,2018-07-30 00:30:18,2018-07-30 00:30:23,5.094s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-07-30 00:30:19,2018-07-30 00:30:19,0.087s,PASSED
+Statement - request = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-07-30 00:30:20,2018-07-30 00:30:20,0.005s,PASSED
+Statement - response = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-07-30 00:30:20,2018-07-30 00:30:20,0.005s,PASSED
+Statement - params = new java.util.ArrayList(),,,2018-07-30 00:30:20,2018-07-30 00:30:20,0.003s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(UserData).getRowNumbers(), (row++)])",,,2018-07-30 00:30:20,2018-07-30 00:30:23,3.858s,PASSED
+"Statement - println(""End of Users test case"")",,,2018-07-30 00:30:23,2018-07-30 00:30:23,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-07-30 00:30:23,2018-07-30 00:30:23,0.007s,PASSED

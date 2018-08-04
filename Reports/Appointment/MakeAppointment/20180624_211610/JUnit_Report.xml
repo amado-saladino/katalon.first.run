@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MakeAppointment" time="348" tests="0" failures="3" errors="0">
+   <testsuite name="MakeAppointment" tests="0" failures="3" errors="0" time="348" timestamp="2018-06-24 21:16:19" hostname="Ahmed - Lenovo-PC" id="Test Suites/Appointment/MakeAppointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610"/>
+         <property name="logFiles" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610\\1529868105467.png, C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610\\1529868116571.png"/>
+         <property name="hostName" value="Ahmed - Lenovo-PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="603506ff-cc26-43e3-b927-de4b617c6147"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Launch Web App/Open Home Page" classname="Test Cases/Launch Web App/Open Home Page" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)"/>
+         <system-out><![CDATA[2018-06-24 21:16:22 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:16:23 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:21:43 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-out>
+         <system-err><![CDATA[2018-06-24 21:16:22 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;menu-toggle&quot; class=&quot;btn btn-dark btn-lg toggle&quot; href=&quot;#&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)"/>
+         <system-out><![CDATA[2018-06-24 21:21:43 - [TEST_CASE][FAILED] - Test Cases/Login/Login: Test Cases/Login/Login FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:21:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:21:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+[[ATTACHMENT|C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610\\1529868105467.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-24 21:21:43 - [TEST_CASE][FAILED] - Test Cases/Login/Login: Test Cases/Login/Login FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/BookAppointment" classname="Test Cases/Make Appointment/BookAppointment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;a id=&quot;menu-toggle&quot; class=&quot;btn btn-dark btn-lg toggle&quot; href=&quot;#&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)"/>
+         <system-out><![CDATA[2018-06-24 21:21:55 - [TEST_CASE][FAILED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:21:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+
+2018-06-24 21:22:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)
+[[ATTACHMENT|C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_211610\\1529868116571.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-24 21:21:55 - [TEST_CASE][FAILED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <a id="menu-toggle" class="btn btn-dark btn-lg toggle" href="#"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-24 21:16:19 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-out>
+      <system-err><![CDATA[2018-06-24 21:16:19 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12268, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 603506ff-cc26-43e3-b927-de4b617c6147)]]></system-err>
+   </testsuite>
+</testsuites>

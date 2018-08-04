@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MakeAppointment" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="MakeAppointment" tests="2" failures="0" errors="0" time="32" timestamp="2018-06-18 01:03:39" hostname="Ahmed - Lenovo-PC" id="Test Suites/Appointment/MakeAppointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180618_010332"/>
+         <property name="logFiles" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180618_010332\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahmed - Lenovo-PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="af6ed7ad-7d84-491e-bdc7-3c7dd8d7bf9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Launch Web App/Open Home Page" classname="Test Cases/Launch Web App/Open Home Page" status="PASSED">
+         <system-out><![CDATA[2018-06-18 01:03:40 - [TEST_CASE][PASSED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page
+
+2018-06-18 01:03:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2018-06-18 01:04:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2018-06-18 01:04:04 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched 
+
+2018-06-18 01:04:04 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2018-06-18 01:04:04 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Launch Web App/Login" classname="Test Cases/Launch Web App/Login" status="PASSED">
+         <system-out><![CDATA[2018-06-18 01:04:04 - [TEST_CASE][PASSED] - Test Cases/Launch Web App/Login: Test Cases/Launch Web App/Login
+
+2018-06-18 01:04:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/HomePage/ToggleMenu' is clicked on
+
+2018-06-18 01:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ToggleMenu' is clicked on
+
+2018-06-18 01:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-06-18 01:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-06-18 01:04:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-06-18 01:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-06-18 01:04:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-06-18 01:04:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-06-18 01:04:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-18 01:04:10 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-18 01:03:39 - [TEST_SUITE][PASSED] - MakeAppointment: Test Cases/Launch Web App/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

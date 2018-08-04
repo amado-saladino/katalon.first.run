@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,Firefox 61.0,,2018-07-22 19:57:18,2018-07-22 19:58:28,1m - 9.395s,PASSED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,Firefox 61.0,,2018-07-22 19:57:19,2018-07-22 19:57:40,21.058s,PASSED
+openBrowser,Firefox 61.0,,2018-07-22 19:57:20,2018-07-22 19:57:40,20.125s,PASSED
+verifyMatch,Firefox 61.0,,2018-07-22 19:57:40,2018-07-22 19:57:40,0.205s,PASSED
+,,,,,,
+Test Cases/Login/Login,Firefox 61.0,,2018-07-22 19:57:40,2018-07-22 19:57:46,5.057s,PASSED
+click,Firefox 61.0,,2018-07-22 19:57:41,2018-07-22 19:57:42,1.464s,PASSED
+click,Firefox 61.0,,2018-07-22 19:57:42,2018-07-22 19:57:44,1.641s,PASSED
+verifyElementVisible,Firefox 61.0,,2018-07-22 19:57:44,2018-07-22 19:57:44,0.216s,PASSED
+verifyElementVisible,Firefox 61.0,,2018-07-22 19:57:44,2018-07-22 19:57:44,0.114s,PASSED
+com.ahmedsoft.utilities.AppUtilities.login,Firefox 61.0,,2018-07-22 19:57:44,2018-07-22 19:57:46,1.326s,PASSED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,Firefox 61.0,,2018-07-22 19:57:46,2018-07-22 19:58:26,40.879s,PASSED
+click,Firefox 61.0,,2018-07-22 19:57:46,2018-07-22 19:57:46,0.338s,PASSED
+verifyEqual,Firefox 61.0,,2018-07-22 19:57:46,2018-07-22 19:57:47,0.193s,PASSED
+click,Firefox 61.0,,2018-07-22 19:57:47,2018-07-22 19:57:47,0.247s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(AppointmentsData).getRowNumbers(), (row++)])",Firefox 61.0,,2018-07-22 19:57:47,2018-07-22 19:58:26,39.560s,PASSED

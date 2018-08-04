@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,Firefox 60.0,,2018-06-18 22:49:16,2018-06-18 22:49:53,37.270s,PASSED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,Firefox 60.0,,2018-06-18 22:49:17,2018-06-18 22:49:47,29.897s,PASSED
+openBrowser,Firefox 60.0,,2018-06-18 22:49:19,2018-06-18 22:49:47,28.491s,PASSED
+verifyMatch,Firefox 60.0,,2018-06-18 22:49:47,2018-06-18 22:49:47,0.377s,PASSED
+,,,,,,
+Test Cases/Login/Login,Firefox 60.0,,2018-06-18 22:49:47,2018-06-18 22:49:52,4.589s,PASSED
+click,Firefox 60.0,,2018-06-18 22:49:48,2018-06-18 22:49:49,0.574s,PASSED
+click,Firefox 60.0,,2018-06-18 22:49:49,2018-06-18 22:49:50,1.180s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-06-18 22:49:50,2018-06-18 22:49:50,0.257s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-06-18 22:49:50,2018-06-18 22:49:51,0.219s,PASSED
+com.ahmedsoft.utilities.AppUtilities.login,Firefox 60.0,,2018-06-18 22:49:51,2018-06-18 22:49:52,1.404s,PASSED

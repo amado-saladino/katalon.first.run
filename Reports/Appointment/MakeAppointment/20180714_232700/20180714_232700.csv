@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,Firefox 60.0,,2018-07-14 23:27:07,2018-07-14 23:27:59,51.838s,PASSED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,Firefox 60.0,,2018-07-14 23:27:10,2018-07-14 23:27:44,34.054s,PASSED
+openBrowser,Firefox 60.0,,2018-07-14 23:27:11,2018-07-14 23:27:43,32.101s,PASSED
+verifyMatch,Firefox 60.0,,2018-07-14 23:27:43,2018-07-14 23:27:44,0.893s,PASSED
+,,,,,,
+Test Cases/Login/Login,Firefox 60.0,,2018-07-14 23:27:44,2018-07-14 23:27:49,4.862s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:45,2018-07-14 23:27:46,0.489s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:46,2018-07-14 23:27:47,1.150s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-14 23:27:47,2018-07-14 23:27:47,0.229s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-14 23:27:47,2018-07-14 23:27:47,0.071s,PASSED
+com.ahmedsoft.utilities.AppUtilities.login,Firefox 60.0,,2018-07-14 23:27:47,2018-07-14 23:27:49,1.641s,PASSED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,Firefox 60.0,,2018-07-14 23:27:49,2018-07-14 23:27:57,8.551s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:49,2018-07-14 23:27:49,0.275s,PASSED
+verifyEqual,Firefox 60.0,,2018-07-14 23:27:49,2018-07-14 23:27:50,0.164s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:50,2018-07-14 23:27:50,0.250s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-14 23:27:50,2018-07-14 23:27:50,0.055s,PASSED
+com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText,Firefox 60.0,,2018-07-14 23:27:50,2018-07-14 23:27:50,0.246s,PASSED
+setText,Firefox 60.0,,2018-07-14 23:27:50,2018-07-14 23:27:50,0.128s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:50,2018-07-14 23:27:51,0.431s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:51,2018-07-14 23:27:51,0.245s,PASSED
+setText,Firefox 60.0,,2018-07-14 23:27:51,2018-07-14 23:27:51,0.486s,PASSED
+click,Firefox 60.0,,2018-07-14 23:27:51,2018-07-14 23:27:52,0.616s,PASSED
+com.ahmedsoft.utilities.AppUtilities.confirmationSuccess,Firefox 60.0,,2018-07-14 23:27:52,2018-07-14 23:27:52,0.109s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-14 23:27:52,2018-07-14 23:27:52,0.064s,PASSED
+delay,Firefox 60.0,,2018-07-14 23:27:52,2018-07-14 23:27:57,5.015s,PASSED

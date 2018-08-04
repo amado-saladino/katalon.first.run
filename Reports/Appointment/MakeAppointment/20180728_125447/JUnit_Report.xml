@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MakeAppointment" time="29" tests="0" failures="3" errors="0">
+   <testsuite name="MakeAppointment" tests="0" failures="3" errors="0" time="29" timestamp="2018-07-28 12:54:55" hostname="Ahmed - Lenovo-PC" id="Test Suites/Appointment/MakeAppointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180728_125447"/>
+         <property name="logFiles" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180728_125447\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahmed - Lenovo-PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="83e45b6d-71d8-43ea-bcea-e75f3f99761e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Launch Web App/Open Home Page" classname="Test Cases/Launch Web App/Open Home Page" status="FAILED">
+         <failure type="FAILED" message="Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-28 12:54:58 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:54:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:54:58 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:54:58 - [TEST_STEP][FAILED] - verifyMatch: Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-28 12:54:59 - [MESSAGE][FAILED] - Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-07-28 12:54:58 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-28 12:54:59 - [TEST_CASE][FAILED] - Test Cases/Login/Login: Test Cases/Login/Login FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:54:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-28 12:54:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:54:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-07-28 12:54:59 - [TEST_CASE][FAILED] - Test Cases/Login/Login: Test Cases/Login/Login FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/BookAppointment" classname="Test Cases/Make Appointment/BookAppointment" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-28 12:54:59 - [TEST_CASE][FAILED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'GeneralListeners.sampleBeforeTestCase(...)' completed.
+
+2018-07-28 12:55:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:55:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-28 12:55:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-07-28 12:55:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'GeneralListeners.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-07-28 12:54:59 - [TEST_CASE][FAILED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment FAILED because (of) Unable to click on object 'Object Repository/SiteMenu/ToggleMenu' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-28 12:54:55 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-28 12:54:55 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to get the title of the current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,,,2018-07-22 19:53:25,2018-07-22 19:53:43,18.516s,FAILED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,,,2018-07-22 19:53:27,2018-07-22 19:53:41,14.529s,FAILED
+openBrowser,,,2018-07-22 19:53:29,2018-07-22 19:53:41,12.415s,FAILED
+,,,,,,
+Test Cases/Login/Login,,,2018-07-22 19:53:41,2018-07-22 19:53:43,1.597s,FAILED
+click,,,2018-07-22 19:53:42,2018-07-22 19:53:43,0.380s,FAILED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,,,2018-07-22 19:53:43,2018-07-22 19:53:43,0.571s,FAILED
+click,,,2018-07-22 19:53:43,2018-07-22 19:53:43,0.013s,FAILED

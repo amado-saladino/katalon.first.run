@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,Firefox 60.0,,2018-07-21 23:53:19,2018-07-21 23:55:11,1m - 51.438s,FAILED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,Firefox 60.0,,2018-07-21 23:53:21,2018-07-21 23:53:46,25.074s,PASSED
+openBrowser,Firefox 60.0,,2018-07-21 23:53:22,2018-07-21 23:53:45,23.618s,PASSED
+verifyMatch,Firefox 60.0,,2018-07-21 23:53:45,2018-07-21 23:53:46,0.458s,PASSED
+,,,,,,
+Test Cases/Login/Login,Firefox 60.0,,2018-07-21 23:53:46,2018-07-21 23:53:50,3.784s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:47,2018-07-21 23:53:48,0.525s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:48,2018-07-21 23:53:49,0.784s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:53:49,2018-07-21 23:53:49,0.227s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:53:49,2018-07-21 23:53:49,0.085s,PASSED
+com.ahmedsoft.utilities.AppUtilities.login,Firefox 60.0,,2018-07-21 23:53:49,2018-07-21 23:53:50,0.927s,PASSED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,Firefox 60.0,,2018-07-21 23:53:50,2018-07-21 23:54:03,12.742s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:50,2018-07-21 23:53:50,0.269s,PASSED
+verifyEqual,Firefox 60.0,,2018-07-21 23:53:50,2018-07-21 23:53:51,0.372s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:51,2018-07-21 23:53:51,0.299s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:53:51,2018-07-21 23:53:51,0.119s,PASSED
+com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText,Firefox 60.0,,2018-07-21 23:53:51,2018-07-21 23:53:54,3.236s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:54,2018-07-21 23:53:55,0.264s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:55,2018-07-21 23:53:55,0.266s,PASSED
+setText,Firefox 60.0,,2018-07-21 23:53:55,2018-07-21 23:53:56,0.903s,PASSED
+setText,Firefox 60.0,,2018-07-21 23:53:56,2018-07-21 23:53:56,0.284s,PASSED
+click,Firefox 60.0,,2018-07-21 23:53:56,2018-07-21 23:53:57,1.028s,PASSED
+com.ahmedsoft.utilities.AppUtilities.confirmationSuccess,Firefox 60.0,,2018-07-21 23:53:57,2018-07-21 23:53:57,0.155s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:53:57,2018-07-21 23:53:57,0.125s,PASSED
+delay,Firefox 60.0,,2018-07-21 23:53:57,2018-07-21 23:54:03,5.026s,PASSED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,Firefox 60.0,,2018-07-21 23:54:03,2018-07-21 23:54:36,33.471s,FAILED
+click,Firefox 60.0,,2018-07-21 23:54:03,2018-07-21 23:54:03,0.323s,PASSED
+verifyEqual,Firefox 60.0,,2018-07-21 23:54:03,2018-07-21 23:54:03,0.263s,PASSED
+click,Firefox 60.0,,2018-07-21 23:54:03,2018-07-21 23:54:03,0.285s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:54:03,2018-07-21 23:54:36,32.526s,FAILED
+,,,,,,
+Test Cases/Make Appointment/BookAppointment,Firefox 60.0,,2018-07-21 23:54:36,2018-07-21 23:55:09,33.471s,FAILED
+click,Firefox 60.0,,2018-07-21 23:54:36,2018-07-21 23:54:36,0.330s,PASSED
+verifyEqual,Firefox 60.0,,2018-07-21 23:54:36,2018-07-21 23:54:37,0.317s,PASSED
+click,Firefox 60.0,,2018-07-21 23:54:37,2018-07-21 23:54:37,0.286s,PASSED
+verifyElementVisible,Firefox 60.0,,2018-07-21 23:54:37,2018-07-21 23:55:09,32.475s,FAILED

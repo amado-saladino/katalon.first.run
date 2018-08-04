@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MakeAppointment,Firefox 60.0,,2018-06-18 00:24:04,2018-06-18 00:26:10,2m - 5.249s,PASSED
+,,,,,,
+Test Cases/Launch Web App/Open Home Page,Firefox 60.0,,2018-06-18 00:24:05,2018-06-18 00:25:48,1m - 43.056s,PASSED
+openBrowser,Firefox 60.0,,2018-06-18 00:24:06,2018-06-18 00:25:48,1m - 41.982s,PASSED
+verifyMatch,Firefox 60.0,,2018-06-18 00:25:48,2018-06-18 00:25:48,0.527s,PASSED
+,,,,,,
+Test Cases/Launch Web App/Login,Firefox 60.0,,2018-06-18 00:25:48,2018-06-18 00:26:08,20.141s,PASSED
+click,Firefox 60.0,,2018-06-18 00:25:50,2018-06-18 00:25:50,0.571s,PASSED
+click,Firefox 60.0,,2018-06-18 00:25:50,2018-06-18 00:26:06,16.219s,PASSED
+delay,Firefox 60.0,,2018-06-18 00:26:06,2018-06-18 00:26:08,2.054s,PASSED

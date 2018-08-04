@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MakeAppointment" time="52" tests="3" failures="0" errors="0">
+   <testsuite name="MakeAppointment" tests="3" failures="0" errors="0" time="52" timestamp="2018-07-14 23:14:29" hostname="Ahmed - Lenovo-PC" id="Test Suites/Appointment/MakeAppointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180714_231423"/>
+         <property name="logFiles" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180714_231423\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahmed - Lenovo-PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="1a63071b-37b1-416f-a29a-e8f35e597aac"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Launch Web App/Open Home Page" classname="Test Cases/Launch Web App/Open Home Page" status="PASSED">
+         <system-out><![CDATA[2018-07-14 23:14:31 - [TEST_CASE][PASSED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page
+
+2018-07-14 23:14:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2018-07-14 23:15:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2018-07-14 23:15:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched 
+
+2018-07-14 23:15:01 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2018-07-14 23:15:01 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-07-14 23:15:01 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-07-14 23:15:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-07-14 23:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-07-14 23:15:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-07-14 23:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-07-14 23:15:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-07-14 23:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-07-14 23:15:07 - [TEST_STEP][PASSED] - com.ahmedsoft.utilities.AppUtilities.login: com.ahmedsoft.utilities.AppUtilities.login is PASSED
+
+2018-07-14 23:15:08 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/LoginPage/txt_Username'
+
+2018-07-14 23:15:09 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/LoginPage/txt_Password'
+
+2018-07-14 23:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/LoginButton' is clicked on
+
+2018-07-14 23:15:11 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.AppUtilities.login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/BookAppointment" classname="Test Cases/Make Appointment/BookAppointment" status="PASSED">
+         <system-out><![CDATA[2018-07-14 23:15:11 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment
+
+2018-07-14 23:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:12 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/SiteMenu/LinkProfile' is visible
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/SiteMenu/LinkLogout' is visible
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.AppUtilities.isLoggedIn is PASSED
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-07-14 23:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-07-14 23:15:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AppointmentPage/Header_Make Appointment' is visible
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/AppointmentPage/Header_Make Appointment' is visible
+
+2018-07-14 23:15:13 - [TEST_STEP][PASSED] - com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText: com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText is PASSED
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText is PASSED
+
+2018-07-14 23:15:13 - [TEST_STEP][PASSED] - setText: Text 'This is only 
+a test' is set on object 'Object Repository/AppointmentPage/textarea_comment'
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - Text 'This is only 
+a test' is set on object 'Object Repository/AppointmentPage/textarea_comment'
+
+2018-07-14 23:15:13 - [TEST_STEP][PASSED] - click: Object: 'LabelForCheckboxObject' is clicked on
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.getCheckboxByLabel is PASSED
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - Object: 'LabelForCheckboxObject' is clicked on
+
+2018-07-14 23:15:13 - [TEST_STEP][PASSED] - click: Object: 'LabelForRadiobuttonObject' is clicked on
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.getRadiobuttonByLabel is PASSED
+
+2018-07-14 23:15:13 - [MESSAGE][PASSED] - Object: 'LabelForRadiobuttonObject' is clicked on
+
+2018-07-14 23:15:13 - [TEST_STEP][PASSED] - setText: Text '20/08/2018' is set on object 'Object Repository/AppointmentPage/txt_visit_date'
+
+2018-07-14 23:15:14 - [MESSAGE][PASSED] - Text '20/08/2018' is set on object 'Object Repository/AppointmentPage/txt_visit_date'
+
+2018-07-14 23:15:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AppointmentPage/btn_Book Appointment' is clicked on
+
+2018-07-14 23:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AppointmentPage/btn_Book Appointment' is clicked on
+
+2018-07-14 23:15:15 - [TEST_STEP][PASSED] - com.ahmedsoft.utilities.AppUtilities.confirmationSuccess: com.ahmedsoft.utilities.AppUtilities.confirmationSuccess is PASSED
+
+2018-07-14 23:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Confirmation/btn_Go to Homepage' is visible
+
+2018-07-14 23:15:15 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.AppUtilities.confirmationSuccess is PASSED
+
+2018-07-14 23:15:15 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'info' is visible
+
+2018-07-14 23:15:15 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.getConfirmationItem is PASSED
+
+2018-07-14 23:15:15 - [MESSAGE][PASSED] - Object 'info' is visible
+
+2018-07-14 23:15:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-14 23:15:20 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-14 23:14:29 - [TEST_SUITE][PASSED] - MakeAppointment: Test Cases/Make Appointment/BookAppointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

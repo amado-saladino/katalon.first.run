@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MakeAppointment" time="330" tests="2" failures="1" errors="0">
+   <testsuite name="MakeAppointment" tests="2" failures="1" errors="0" time="330" timestamp="2018-06-24 22:33:18" hostname="Ahmed - Lenovo-PC" id="Test Suites/Appointment/MakeAppointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_223312"/>
+         <property name="logFiles" value="C:\\Users\\Ahmed\\Katalon Studio\\FirstRun\\Reports\\Appointment\\MakeAppointment\\20180624_223312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ahmed - Lenovo-PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="sessionId" value="97ca62a1-c606-473e-8bbe-8709f1b96b76"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Launch Web App/Open Home Page" classname="Test Cases/Launch Web App/Open Home Page" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)"/>
+         <system-out><![CDATA[2018-06-24 22:33:20 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)
+
+2018-06-24 22:33:21 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)
+
+2018-06-24 22:38:32 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)]]></system-out>
+         <system-err><![CDATA[2018-06-24 22:33:20 - [TEST_CASE][FAILED] - Test Cases/Launch Web App/Open Home Page: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login" classname="Test Cases/Login/Login" status="PASSED">
+         <system-out><![CDATA[2018-06-24 22:38:32 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2018-06-24 22:38:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-06-24 22:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/LoginLink' is clicked on
+
+2018-06-24 22:38:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-06-24 22:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/Text_Please_Login' is visible
+
+2018-06-24 22:38:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-06-24 22:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/LoginButton' is visible
+
+2018-06-24 22:38:37 - [TEST_STEP][PASSED] - com.ahmedsoft.utilities.AppUtilities.login: com.ahmedsoft.utilities.AppUtilities.login is PASSED
+
+2018-06-24 22:38:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/LoginPage/txt_Username'
+
+2018-06-24 22:38:38 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/LoginPage/txt_Password'
+
+2018-06-24 22:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/LoginButton' is clicked on
+
+2018-06-24 22:38:39 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.AppUtilities.login is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment/BookAppointment" classname="Test Cases/Make Appointment/BookAppointment" status="PASSED">
+         <system-out><![CDATA[2018-06-24 22:38:39 - [TEST_CASE][PASSED] - Test Cases/Make Appointment/BookAppointment: Test Cases/Make Appointment/BookAppointment
+
+2018-06-24 22:38:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:40 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-06-24 22:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/SiteMenu/LinkProfile' is visible
+
+2018-06-24 22:38:40 - [MESSAGE][PASSED] - Object 'Object Repository/SiteMenu/LinkLogout' is visible
+
+2018-06-24 22:38:40 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.AppUtilities.isLoggedIn is PASSED
+
+2018-06-24 22:38:41 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-06-24 22:38:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SiteMenu/ToggleMenu' is clicked on
+
+2018-06-24 22:38:41 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AppointmentPage/Header_Make Appointment' is visible
+
+2018-06-24 22:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/AppointmentPage/Header_Make Appointment' is visible
+
+2018-06-24 22:38:41 - [TEST_STEP][PASSED] - com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText: com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText is PASSED
+
+2018-06-24 22:38:41 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.selectDropDownItemByText is PASSED
+
+2018-06-24 22:38:41 - [TEST_STEP][PASSED] - setText: Text 'This is only 
+a test' is set on object 'Object Repository/AppointmentPage/textarea_comment'
+
+2018-06-24 22:38:42 - [MESSAGE][PASSED] - Text 'This is only 
+a test' is set on object 'Object Repository/AppointmentPage/textarea_comment'
+
+2018-06-24 22:38:42 - [TEST_STEP][PASSED] - click: Object: 'LabelForCheckboxObject' is clicked on
+
+2018-06-24 22:38:42 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.getCheckboxByLabel is PASSED
+
+2018-06-24 22:38:42 - [MESSAGE][PASSED] - Object: 'LabelForCheckboxObject' is clicked on
+
+2018-06-24 22:38:42 - [TEST_STEP][PASSED] - click: Object: 'LabelForRadiobuttonObject' is clicked on
+
+2018-06-24 22:38:42 - [MESSAGE][PASSED] - com.ahmedsoft.utilities.CommonUtilities.getRadiobuttonByLabel is PASSED
+
+2018-06-24 22:38:42 - [MESSAGE][PASSED] - Object: 'LabelForRadiobuttonObject' is clicked on
+
+2018-06-24 22:38:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-24 22:38:47 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-24 22:33:18 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)]]></system-out>
+      <system-err><![CDATA[2018-06-24 22:33:18 - [TEST_SUITE][FAILED] - MakeAppointment: Test Cases/Launch Web App/Open Home Page FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com/' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LENOVO-PC', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2972, moz:profile: C:\Users\Ahmed\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97ca62a1-c606-473e-8bbe-8709f1b96b76)]]></system-err>
+   </testsuite>
+</testsuites>
