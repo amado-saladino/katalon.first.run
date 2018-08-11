@@ -75,6 +75,4 @@ class AppUtilities {
 				findTestObject('Object Repository/Confirmation/h2_Appointment Confirmation') &&
 				findTestObject('Object Repository/Confirmation/p_please_information')
 	}
-
-	
 }

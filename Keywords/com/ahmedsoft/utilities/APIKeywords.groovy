@@ -104,5 +104,11 @@ class APIKeywords {
 		return request
 	}
 
+	@Keyword
+	def getReponseSize(RequestObject request) {
+
+		return WS.sendRequest(request).getBodyContent().getContentLength()
+	}
+
 
 }
