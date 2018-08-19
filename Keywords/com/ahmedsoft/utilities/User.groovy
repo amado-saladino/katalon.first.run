@@ -26,59 +26,58 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class User {
-	
+
 	private String id
 	private String name
 	private String Age
 	private String city
-	
+
 	public User(String id,String name,String age,String city) {
-		
+
 		this.id=id
 		this.name=name
 		this.age=age
 		this.city=city
 	}
-	
+
 	public String getId() {
 		return id
 	}
-	
+
 	public void setId(String id) {
 		this.id=id
 	}
-	
-	
+
+
 	public String getName() {
 		return name
 	}
-	
+
 	public void setName(String name) {
 		this.name=name
 	}
-	
-	
+
+
 	public String getAge() {
 		return Age
 	}
-	
+
 	public void setAge(String age) {
 		this.Age=age
 	}
-	
-	
+
+
 	public String getCity() {
 		return city
 	}
-	
+
 	public void setCity(String city) {
 		this.city=city
 	}
-	
-	
-	public boolean equals(Object other)
-		{
-	if (other == null) return false
+
+
+	public boolean equals(Object other) {
+		if (other == null) return false
 		if (this.is(other)) return true
 		if (User != other.getClass()) return false
 		if (id != other.id) return false
@@ -90,5 +89,4 @@ public class User {
 
 		return this.getId().hashCode()
 	}
-	
 }
