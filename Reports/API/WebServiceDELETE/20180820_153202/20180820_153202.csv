@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebServiceDELETE,,,2018-08-20 15:32:17,2018-08-20 15:32:21,3.203s,PASSED
+,,,,,,
+Test Cases/WebserviceTest/DELETE/RemoveUser,,,2018-08-20 15:32:19,2018-08-20 15:32:20,1.938s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-08-20 15:32:19,2018-08-20 15:32:19,0.019s,PASSED
+Statement - dataFactory = new com.ahmedsoft.utilities.DataFactory(),,,2018-08-20 15:32:19,2018-08-20 15:32:20,0.650s,PASSED
+Statement - user = dataFactory.getLastUser(),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.509s,PASSED
+Statement - userCountbeforeRemove = dataFactory.getUserCount(),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.050s,PASSED
+Statement - deleteRequest = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/API/DeleteUser),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.007s,PASSED
+Statement - deleteRequest.setRestUrl(deleteRequest.getRestUrl() + user.getId()),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.028s,PASSED
+Statement - deleteResponse = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(deleteRequest),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.028s,PASSED
+verifyResponseStatusCode,,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.014s,PASSED
+Statement - userCountAfterRemove = dataFactory.getUserCount(),,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.028s,PASSED
+verifyEqual,,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.054s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-20 15:32:20,2018-08-20 15:32:20,0.019s,PASSED

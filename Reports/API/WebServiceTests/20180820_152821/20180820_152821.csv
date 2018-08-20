@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+WebServiceTests,,,2018-08-20 15:28:27,2018-08-20 15:28:34,7.322s,PASSED
+,,,,,,
+Test Cases/WebserviceTest/POST/CreateUser,,,2018-08-20 15:28:28,2018-08-20 15:28:30,2.343s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-08-20 15:28:28,2018-08-20 15:28:28,0.039s,PASSED
+Statement - responseAddUser = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-08-20 15:28:28,2018-08-20 15:28:28,0.004s,PASSED
+Statement - requestAddUser = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-08-20 15:28:28,2018-08-20 15:28:28,0.000s,PASSED
+Statement - faker = new com.ahmedsoft.utilities.DataFactory(),,,2018-08-20 15:28:28,2018-08-20 15:28:29,0.553s,PASSED
+Statement - body = faker.createStringifiedUser(),,,2018-08-20 15:28:29,2018-08-20 15:28:29,0.062s,PASSED
+"Statement - user = faker.jsonifyUser(body, com.ahmedsoft.utilities.User)",,,2018-08-20 15:28:29,2018-08-20 15:28:29,0.001s,PASSED
+Statement - requestAddUser = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/API/AddUser),,,2018-08-20 15:28:29,2018-08-20 15:28:29,0.074s,PASSED
+"Statement - requestAddUser.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))",,,2018-08-20 15:28:29,2018-08-20 15:28:29,0.046s,PASSED
+Statement - responseAddUser = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(requestAddUser),,,2018-08-20 15:28:29,2018-08-20 15:28:30,0.608s,PASSED
+"Statement - newUser = faker.jsonifyUser(responseAddUser.getResponseText(), com.ahmedsoft.utilities.User)",,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.003s,PASSED
+verifyEqual,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.229s,PASSED
+verifyResponseStatusCode,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.033s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.032s,PASSED
+,,,,,,
+Test Cases/WebserviceTest/GET/VerifyNameById,,,2018-08-20 15:28:30,2018-08-20 15:28:33,3.023s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.000s,PASSED
+Statement - request = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.000s,PASSED
+Statement - response = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.000s,PASSED
+Statement - params = new java.util.ArrayList(),,,2018-08-20 15:28:30,2018-08-20 15:28:30,0.000s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(UserData).getRowNumbers(), (row++)])",,,2018-08-20 15:28:30,2018-08-20 15:28:33,2.612s,PASSED
+"Statement - println(""End of Users test case"")",,,2018-08-20 15:28:33,2018-08-20 15:28:33,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-20 15:28:33,2018-08-20 15:28:33,0.005s,PASSED
+,,,,,,
+Test Cases/WebserviceTest/PUT/EditUser,,,2018-08-20 15:28:33,2018-08-20 15:28:34,0.824s,PASSED
+Start listener action : sampleBeforeTestCase,,,2018-08-20 15:28:33,2018-08-20 15:28:33,0.007s,PASSED
+Statement - dataFactory = new com.ahmedsoft.utilities.DataFactory(),,,2018-08-20 15:28:33,2018-08-20 15:28:34,0.313s,PASSED
+Statement - user = dataFactory.getLastUser(),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.047s,PASSED
+Statement - modifiedUser = dataFactory.modifyUser(user),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.009s,PASSED
+Statement - body = dataFactory.createStringifiedUser(modifiedUser),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.003s,PASSED
+Statement - request = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/API/ModifyUser),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.010s,PASSED
+"Statement - request.setBodyContent(new com.kms.katalon.core.testobject.impl.HttpTextBodyContent(body, UTF-8, application/json))",,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.001s,PASSED
+Statement - request.setRestUrl(request.getRestUrl() + user.getId()),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.002s,PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(request),,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.022s,PASSED
+"Statement - updatedUser = dataFactory.jsonifyUser(response.getResponseText(), com.ahmedsoft.utilities.User)",,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.001s,PASSED
+verifyEqual,,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,2018-08-20 15:28:34,2018-08-20 15:28:34,0.006s,PASSED

@@ -4,7 +4,7 @@
    <name>WebServiceTests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-30T00:30:09</lastRun>
+   <lastRun>2018-08-20T15:32:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,9 +12,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>b7955e07-6cd4-46e8-84a8-888fc5ad9d20</testSuiteGuid>
    <testCaseLink>
-      <guid>a4b5226f-6651-4bfc-a8b2-b4eaf8204874</guid>
+      <guid>9a07e817-ca20-4b97-8090-e462ed1c7cc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebserviceTest/POST/CreateUser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0c34f96-14c7-45b5-8f14-db258d36ae25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WebserviceTest/GET/VerifyNameById</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42ad5f55-7a75-4cc8-b9ca-3691156c8f36</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebserviceTest/PUT/EditUser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

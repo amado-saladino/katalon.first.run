@@ -42,4 +42,3 @@ responseAddUser = WS.sendRequest(requestAddUser)
 User newUser= faker.jsonifyUser(responseAddUser.getResponseText(),User.class)
 WS.verifyEqual(user, newUser)
 WS.verifyResponseStatusCode(responseAddUser, 201)
-
