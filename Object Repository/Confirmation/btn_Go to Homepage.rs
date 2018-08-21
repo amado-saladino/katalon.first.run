@@ -4,6 +4,12 @@
    <name>btn_Go to Homepage</name>
    <tag></tag>
    <elementGuidId>ae4976ee-52ba-4a95-b408-ce1f755c2ea5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'http://demoaut.katalon.com/' and (text() = 'Go to Homepage' or . = 'Go to Homepage')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -19,13 +25,6 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>http://demoaut.katalon.com/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

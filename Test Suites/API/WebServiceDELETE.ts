@@ -4,7 +4,7 @@
    <name>WebServiceDELETE</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-20T15:32:02</lastRun>
+   <lastRun>2018-08-21T16:07:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

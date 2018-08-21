@@ -1,0 +1,1 @@
+katalon -propertiesFile "‪‪C:\Users\Ahmed\Katalon Studio\FirstRun\run.console.API.properties" -noSplash -runMode=console
