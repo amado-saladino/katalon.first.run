@@ -1,1 +1,0 @@
-katalon -propertiesFile "C:\Users\Ahmed\Katalon Studio\FirstRun\run.console.GUI.properties" -noSplash -runMode=console
