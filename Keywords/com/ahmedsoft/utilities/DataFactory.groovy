@@ -103,12 +103,12 @@ public class DataFactory {
 
 		return gson.fromJson(stringJson, type)
 	}
-	
-	
+
+
 	def public int getUserCount() {
-		
+
 		def request = (RequestObject) findTestObject('Object Repository/API/GetUsers')
-		return jsonifyUsers(WS.sendRequest(request).getResponseText(), User[].class).length 
+		return jsonifyUsers(WS.sendRequest(request).getResponseText(), User[].class).length
 	}
 
 
