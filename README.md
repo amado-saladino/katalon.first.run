@@ -5,7 +5,7 @@ This demo explains how to use Katalon studio to test:
 - GUI web-based applications (https://katalon-demo-cura.herokuapp.com/)
 - For API test (json-server) is used here as an REST Api server
 
-## SCreenshots folder
+## Screenshots folder
 
 After you download the project folder, do not forget to create a **Screenshots** folder inside the project fodler
 
