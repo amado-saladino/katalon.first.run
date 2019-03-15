@@ -1,8 +1,9 @@
-
 /bin/
 /Libs/
 /Reports/
 /.settings/
 /.classpath
-/Screenshots/
+/Screenshots/*
 .svn/
+/.project
+!.gitkeep

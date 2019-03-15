@@ -165,6 +165,4 @@ class CommonUtilities {
 
 		return info
 	}
-
-	
 }
