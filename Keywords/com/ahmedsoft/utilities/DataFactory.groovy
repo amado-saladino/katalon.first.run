@@ -29,95 +29,74 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class DataFactory {
-
 	Faker faker
 	Gson gson
+	private Random random
 
 	public DataFactory(){
-
 		faker = new Faker()
 		gson = new Gson()
+		random = new Random()
 	}
 
 	def randomNumber() {
-
-		return faker.number.numberBetween(1, 10000).toString()
+		faker.number.numberBetween(1, 10000).toString()
 	}
 
+	int generateRandomNumberBetween(min, max) {
+		random.nextInt(max) + min
+	}
 
 	def randomName(){
-
-		return faker.name.firstName()
+		faker.name.firstName()
 	}
 
-
 	def randomCity(){
-
-		return faker.address.city()
+		faker.address.city()
 	}
 
 	def randomAge(){
-
-		return faker.number.numberBetween(12, 60).toString()
+		faker.number.numberBetween(12, 60).toString()
 	}
-
 
 	def generateUser(){
-
-		String body = '{"id": "' + randomNumber() + '","name": "' + randomName() + '","Age": "' + randomAge() + '","city": "' + randomCity() +'"}'
-		return body
+		'{"id": "' + randomNumber() + '","name": "' + randomName() + '","Age": "' + randomAge() + '","city": "' + randomCity() +'"}'
 	}
 
-
-	def public User createUser() {
-		return new User(randomNumber(), randomName(), randomAge(), randomCity())
+	def User createUser() {
+		new User(randomNumber(), randomName(), randomAge(), randomCity())
 	}
 
-
-	def public String createStringifiedUser(){
-
-		return gson.toJson(createUser())
+	def String createStringifiedUser(){
+		gson.toJson(createUser())
 	}
 
-
-	def public String createStringifiedUser(User user) {
-
-		return gson.toJson(user)
+	def String createStringifiedUser(User user) {
+		gson.toJson(user)
 	}
 
-
-	def public User modifyUser(User user) {
-
-		return new User(user.getId(), randomName(), randomAge(), randomCity())
+	def User modifyUser(User user) {
+		new User(user.getId(), randomName(), randomAge(), randomCity())
 	}
 
-
-	def public User jsonifyUser(String stringJson,Class type)  {
-
-		return gson.fromJson(stringJson, type)
+	def User jsonifyUser(String stringJson,Class type)  {
+		gson.fromJson(stringJson, type)
 	}
 
-
-
-	def public User[] jsonifyUsers(String stringJson,Class type) {
-
-		return gson.fromJson(stringJson, type)
+	def User[] jsonifyUsers(String stringJson,Class type) {
+		gson.fromJson(stringJson, type)
 	}
 
-
-	def public int getUserCount() {
-
+	def int getUserCount() {
 		def request = (RequestObject) findTestObject('Object Repository/API/GetUsers')
-		return jsonifyUsers(WS.sendRequest(request).getResponseText(), User[].class).length
+		jsonifyUsers(WS.sendRequest(request).getResponseText(), User[].class).length
 	}
 
-
-	def public User getLastUser(){
-
+	def User getLastUser(){
 		def usersRequest = (RequestObject) findTestObject('Object Repository/API/GetUsers')
 		def usersResponse = WS.sendRequest(usersRequest)
 		User[] users = jsonifyUsers(usersResponse.getResponseText(), User[].class)
 		println users.length
-		return users[users.length -1]
+		users[users.length -1]
 	}
 }

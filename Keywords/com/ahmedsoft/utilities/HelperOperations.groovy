@@ -40,29 +40,22 @@ public class HelperOperations {
 
 	WebDriver driver
 
-	public HelperOperations() {
-
+	HelperOperations() {
 		driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
 	}
 
-
-	public def takeSnapshot(TestObject object,String fileName)  {
-
+	def takeSnapshot(TestObject object,String fileName)  {
 		WebElement element = WebUiCommonHelper.findWebElement(object, 15)
 		Screenshot screenShot = new AShot().takeScreenshot(driver, element)
 		ImageIO.write(screenShot.getImage(), "PNG", new File("Screenshots/" + fileName + ".png"))
 	}
 
-
-	public def takeSnapshot() {
-
+	def takeSnapshot() {
 		Screenshot screenShot = new AShot().takeScreenshot(driver)
 		ImageIO.write(screenShot.getImage(), "PNG", new File("Screenshots/" + getTime() + ".png"))
 	}
 
-
-	public String getTime() {
-
-		return new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+	String getTime() {
+		new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime())
 	}
 }

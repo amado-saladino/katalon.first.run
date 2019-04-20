@@ -33,7 +33,6 @@ public class User {
 	private String city
 
 	public User(String id,String name,String age,String city) {
-
 		this.id=id
 		this.name=name
 		this.age=age
@@ -56,7 +55,6 @@ public class User {
 	public void setName(String name) {
 		this.name=name
 	}
-
 
 	public String getAge() {
 		return Age
@@ -86,7 +84,6 @@ public class User {
 	}
 
 	public int hashCode(){
-
 		return this.getId().hashCode()
 	}
 }

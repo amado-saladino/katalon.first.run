@@ -51,9 +51,8 @@ class AppUtilities {
 	 */
 	@Keyword
 	def login(String username,String password){
-
-		WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Username'), "John Doe")
-		WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Password'), "ThisIsNotAPassword")
+		WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Username'), username)
+		WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Password'), password)
 		WebUI.click(findTestObject('Object Repository/LoginPage/LoginButton'))
 	}
 
@@ -63,15 +62,12 @@ class AppUtilities {
 	 */
 	@Keyword
 	def isLoggedIn(){
-
 		return WebUI.verifyElementVisible(findTestObject('Object Repository/SiteMenu/LinkProfile'))	&& WebUI.verifyElementVisible(findTestObject('Object Repository/SiteMenu/LinkLogout'))
 	}
 
-
 	@Keyword
 	def confirmationSuccess(){
-
-		return WebUI.verifyElementVisible(findTestObject('Object Repository/Confirmation/btn_Go to Homepage')) &&
+		WebUI.verifyElementVisible(findTestObject('Object Repository/Confirmation/btn_Go to Homepage')) &&
 				findTestObject('Object Repository/Confirmation/h2_Appointment Confirmation') &&
 				findTestObject('Object Repository/Confirmation/p_please_information')
 	}
