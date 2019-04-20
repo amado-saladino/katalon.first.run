@@ -36,7 +36,6 @@ for (def row = 1; row <= findTestData('UserData').getRowNumbers(); row++)
 	response = WS.sendRequest(request)
 	WS.verifyResponseStatusCode(response, 200)
 	
-	//WS.verifyElementPropertyValue(response, 'name[0]', 'Caroline')
 	//or the line below
 	WS.verifyElementPropertyValue(response, '[0].name',findTestData('UserData').getValue("name", row) )
 	WS.verifyElementsCount(response, '', 1)
