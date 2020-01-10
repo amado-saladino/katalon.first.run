@@ -1,6 +1,7 @@
 /bin/
 /Libs/
 /Reports/
+/Include/
 /.settings/
 /.classpath
 /Screenshots/*
